@@ -1,19 +1,13 @@
 <!DOCTYPE html>
-<html lang="ar" dir="rtl">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>انقر للمتابعة</title>
-
-    <meta property="og:title" content="VIP - محتوى حصري">
-    <meta property="og:description" content="انقر للمتابعة والوصول إلى محتوى VIP الآن.">
+    <title>Clique para Continuar</title>
+  
+    <meta property="og:title" content="VIP - Conteúdo Exclusivo">
+    <meta property="og:description" content="Clique para continuar e acessar o conteúdo VIP agora.">
     <meta property="og:type" content="website">
-
-    <!-- Fonte recomendada para texto árabe moderno em botões -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@800;900&display=swap" rel="stylesheet">
-
     <style>
         body {
             margin: 0;
@@ -31,15 +25,15 @@
             justify-content: center;
             padding: 48px 140px;
             font-size: 2.65rem;
-            font-family: 'Cairo', 'Impact', sans-serif;
-            font-weight: 900;
+            font-family: 'Impact', sans-serif;
+            font-weight: 700;
             color: #ffffff;
             background: linear-gradient(90deg, #FF2D00, #FF6B00, #FF00B8, #C800FF);
             border: none;
             border-radius: 9999px;
             text-decoration: none;
             text-transform: uppercase;
-            letter-spacing: 1px;
+            letter-spacing: 3px;
             box-shadow: 0 0 90px #FF00FF,
                         0 0 160px #FF4500,
                         0 0 220px #FF1493,
@@ -48,12 +42,13 @@
             position: relative;
             overflow: hidden;
             text-align: center;
-            line-height: 1.2;
+            line-height: 1.05;
             animation: pulse 2.4s infinite ease-in-out;
             white-space: nowrap;
             -webkit-text-stroke: 3px #000000;
             text-stroke: 3px #000000;
             paint-order: stroke fill;
+            cursor: pointer;
         }
         .btn:hover {
             transform: scale(1.08);
@@ -73,6 +68,7 @@
             background: radial-gradient(circle, rgba(255,255,255,0.55) 20%, transparent 70%);
             animation: neonGlow 2.5s linear infinite;
             opacity: 0.45;
+            pointer-events: none;
         }
         @keyframes neonGlow {
             0% { transform: translate(20%, 20%); }
@@ -81,21 +77,18 @@
         }
 
         .clicky-badge-link {
-            position: fixed !important;
-            bottom: 0 !important;
-            left: 0 !important;
-            width: 1px !important;
-            height: 1px !important;
-            opacity: 0.001 !important;
-            z-index: -9999 !important;
-            pointer-events: none !important;
-            overflow: hidden !important;
+            position: absolute;
+            bottom: 10px;
+            right: 10px;
+            z-index: 10;
         }
     </style>
 </head>
 <body>
-    <a href="https://www.effectivecpmnetwork.com/zw7252x6a?key=4444e33bced25455b9bb8edb2370fb8b" class="btn" target="_blank">
-        انقر هنا<br>للمتابعة
+
+    <!-- Link corrected for stellular (with two Ls) -->
+    <a href="https://www.profitableratecpmnetwork.com/zw7252x6a?key=4444e33bced25455b9bb8edb2370fb8b" class="btn" target="_blank">
+        CLIQUE AQUI<br>PARA CONTINUAR
     </a>
 
     <script>
@@ -116,7 +109,8 @@
         });
     </script>
 
-    <a title="بديل غوغل أanalyتس" href="https://clicky.com/101507331" class="clicky-badge-link"></a>
-    <script async data-id="101507331" src="//static.getclicky.com/js"></script>
+    <!-- Clicky tracking tag -->
+    <a title="Google Analytics Alternative" href="https://clicky.com/101507331" class="clicky-badge-link"></a>
+    <script async data-id="101507331" src="https://static.getclicky.com/js"></script>
 </body>
 </html>
